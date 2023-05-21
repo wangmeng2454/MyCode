@@ -1,4 +1,3 @@
-import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import java.util.regex.*;
@@ -10,10 +9,10 @@ import java.util.regex.*;
  */
 
 
-public class RegExpMatching {
+public class No10RegExpMatching {
     public static void main(String[] args) {
-        Logger logger = LoggerFactory.getLogger(RegExpMatching.class);
-        logger.info("isMatch(\"abc\", \"abcdef\")    {}", isMatch("abc", "abcdef"));
+        LoggerFactory.getLogger(No10RegExpMatching.class).
+                info("({} isMatch {}) ? {}", "abc", "abcdef", isMatch("abc", "abcdef"));
     }
 
     public static boolean isMatch(String s, String p) {
