@@ -1,2 +1,2 @@
 # MyCode
-Leetcode算法练习
+LeetCode算法练习
