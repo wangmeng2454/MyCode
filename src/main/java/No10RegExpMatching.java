@@ -9,9 +9,9 @@ import java.util.regex.*;
  */
 
 
-public class RegExpMatching10 {
+public class No10RegExpMatching {
     public static void main(String[] args) {
-        LoggerFactory.getLogger(RegExpMatching10.class).
+        LoggerFactory.getLogger(No10RegExpMatching.class).
                 info("({} isMatch {}) ? {}", "abc", "abcdef", isMatch("abc", "abcdef"));
     }
 

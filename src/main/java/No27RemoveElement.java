@@ -9,9 +9,9 @@ import java.util.Arrays;
  */
 
 
-public class RemoveElement {
+public class No27RemoveElement {
     public static void main(String[] args) {
-        Logger logger = LoggerFactory.getLogger(RemoveElement.class);
+        Logger logger = LoggerFactory.getLogger(No27RemoveElement.class);
         int[] ints = {0, 1, 2, 2, 3, 0, 4, 2};
         logger.info("[0,1,2,2,3,0,4,2]移除数值为2后的长度为 - {}", removeElement(ints, 2));
         logger.info("数组为 - {}", Arrays.toString(ints));

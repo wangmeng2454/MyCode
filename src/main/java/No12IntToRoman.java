@@ -5,9 +5,9 @@ import org.slf4j.LoggerFactory;
  * @CreateDate: 2023/5/21
  */
 
-public class IntToRoman12 {
+public class No12IntToRoman {
     public static void main(String[] args) {
-        LoggerFactory.getLogger(IntToRoman12.class).info("1994 - {}", intToRoman(1994));
+        LoggerFactory.getLogger(No12IntToRoman.class).info("1994 - {}", intToRoman(1994));
 
     }
 
