@@ -13,7 +13,7 @@ import java.util.regex.*;
 public class RegExpMatching {
     public static void main(String[] args) {
         Logger logger = LoggerFactory.getLogger(RegExpMatching.class);
-        logger.info("isMatch(\"abc\", \"abcdef\")    {}",isMatch("abc", "abcdef"));
+        logger.info("isMatch(\"abc\", \"abcdef\")    {}", isMatch("abc", "abcdef"));
     }
 
     public static boolean isMatch(String s, String p) {
