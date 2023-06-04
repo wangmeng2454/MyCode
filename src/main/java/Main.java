@@ -8,7 +8,5 @@ public class Main {
         LOGGER.info("{}", new Main());
     }
 
-    public boolean isSameTree(TreeNode p, TreeNode q) {
 
-    }
 }
